@@ -19,7 +19,9 @@
         <EditText
             android:id="@+id/name_field"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/field"
+            android:paddingLeft="15dp"
             android:hint="Name"
             android:inputType="textCapWords" />
 
@@ -124,6 +126,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="submitOrder"
+            android:background="@drawable/button"
             android:text="order"
             android:textAllCaps="true">
 
